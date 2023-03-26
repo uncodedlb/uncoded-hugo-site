@@ -1,0 +1,6 @@
+baseURL = "https://uncoded.org"
+title = "Uncoded Long Beach"
+theme = "uncoded"
+
+[permalinks]
+  posts = '/:title/'

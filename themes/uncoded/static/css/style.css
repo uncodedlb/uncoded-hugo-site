@@ -1,0 +1,217 @@
+@import url(https://fonts.bunny.net/css?family=raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
+
+@import url(https://fonts.bunny.net/css?family=train-one:400);
+
+body {
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+
+.content {
+  padding: 16px;
+}
+
+.content a {
+  text-decoration: none;
+}
+
+.margin-box {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.twocol {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Train One', display;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  color: rgb(178, 126, 252);
+}
+
+.nav {
+  text-align: right;
+}
+
+.nav li {
+  display: inline;
+}
+
+.tophat {
+  color: rgb(178, 126, 252);
+  padding: 80px 16px 80px 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.7)), url(/images/lighthouse.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.tophat a {
+  color: rgb(178, 126, 252);
+  text-decoration: none;
+}
+
+.tophat .nav {
+  padding: 32px 0px;
+}
+
+.tophat .nav a {
+  font-weight: bold;
+  margin: 0px 0px 0px 16px;
+  transition: 0.5s;
+}
+
+.tophat .nav a:hover {
+  color: #fe6ec1;
+  text-decoration: underline;
+}
+
+.logobox {
+  max-width: 160px;
+  text-align: center;
+}
+
+.logobox h1 {
+  margin: 0px;
+  text-decoration: none;
+}
+
+.social-icons {
+  padding: 0px;
+  list-style: none;
+  text-align: right;
+}
+
+.social-icons li {
+  display: inline;
+}
+
+.social-icons a {
+  color: #fe6ec1;
+  margin-left: 16px;
+}
+
+.social-icons img {
+  width: 20px;
+  margin-bottom: -3px;
+}
+
+.social-icons {
+  font-size: 20px;
+}
+
+.pillars {
+  background-color: #fe6ec1;
+  color: #fff;
+  text-align: center;
+  padding: 64px;
+  margin: 32px 0px;
+}
+
+.pill-3col {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.pillars i {
+  font-size: 64px;
+}
+
+.pillars h2,
+.pillars h3 {
+  color: #fff;
+}
+
+.darkbox {
+  background-color: #333;
+  margin: 8px;
+  color: #fff;
+  text-align: center;
+  padding: 64px 128px;
+  vertical-align: middle;
+}
+
+.darkbox h3 {
+  color: #fff;
+  font-size: 32px;
+}
+
+.initiatives h2 {
+  text-align: center;
+}
+
+footer {
+  background-color: #272727;
+  padding: 64px;
+  color: #fff;
+  text-align: center;
+  margin-top: 32px;
+}
+
+footer a {
+  color: #fff;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ff6cbf;
+  color: #fff;
+  font-size: 22px;
+  padding: 16px 24px;
+  border-radius: 3px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: #b27efc;
+}
+
+@media only screen and (max-width: 768px) {
+  .pill-3col,
+  .twocol{
+    display: block;
+  }
+
+  .darkbox {
+    padding: 16px;
+  }
+
+  .nav {
+    text-align: center;
+  }
+
+  .social-icons {
+    text-align: center;
+  }
+
+  .logobox {
+    max-width: 100%;
+  }
+
+  .social-icons a {
+    margin-left: 0px;
+    margin: 16px;
+  }
+}

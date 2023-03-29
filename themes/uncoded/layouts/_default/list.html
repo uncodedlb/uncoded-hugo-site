@@ -18,7 +18,8 @@
 {{ if .Params.image }}
 <p><a href="{{ .RelPermalink }}"><img src="{{ .Params.image }}"></a></p>
 {{ end }}
-  <p>{{ .Summary }}</p>
+
+<p class="list-summary">{{ .Summary }}</p>
 
 <a class="button" href="{{ .RelPermalink }}">Read More</a>
 </article>

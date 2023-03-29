@@ -205,6 +205,13 @@ footer a {
   clear: both;
 }
 
+.list-summary {
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3.0em;
+  line-height: 1.5em;
+}
+
 @media only screen and (max-width: 768px) {
   .pill-3col,
   .twocol{

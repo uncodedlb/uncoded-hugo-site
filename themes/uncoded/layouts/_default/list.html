@@ -1,18 +1,38 @@
 {{ partial "header.html" . }}
-
+<style>
+  .post-snippet {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .clearfix {
+    clear: both;
+  }
+</style>
 <h1>{{ .Title }}</h1>
 
 {{ .Content }}
+<div class="clearfix"></div>
 
 {{ range.Data.Pages }}
 <article class="post-snippet">
   <h3>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </h3>
-	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-		{{ .Date.Format "January 2, 2006" }}
-	</time>
+
+<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+{{ .Date.Format "January 2, 2006" }}<br>
+</time>
+
+{{ if .Params.image }}
+<p><a href="{{ .RelPermalink }}"><img src="{{ .Params.image }}"></a></p>
+{{ end }}
+  <p>{{ .Summary }}</p>
+
+<a class="button" href="{{ .RelPermalink }}">Read More</a>
 </article>
 {{ end }}
+<div class="clearfix"></div>
 
 {{ partial "footer.html" . }}

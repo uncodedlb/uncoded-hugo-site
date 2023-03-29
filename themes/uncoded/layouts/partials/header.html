@@ -18,6 +18,13 @@
     <meta name="msnbot" content="index, follow">
     <meta name="apple-mobile-web-app-title" content="{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
     <meta name="application-name" content="{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
+
+    {{ if .Params.image }}
+      <meta property="og:image" content="{{ .Params.image }}">
+    {{ else }}
+      <meta property="og:image" content="/images/uncoded.webp">
+    {{ end }}
+
     <link rel="canonical" href="https://uncoded.org/">
 
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />

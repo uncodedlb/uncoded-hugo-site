@@ -188,6 +188,23 @@ footer a {
   background-color: #b27efc;
 }
 
+.content p img {
+  max-width:100%;
+  display: block;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.post-snippet {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.clearfix {
+  clear: both;
+}
+
 @media only screen and (max-width: 768px) {
   .pill-3col,
   .twocol{
@@ -214,11 +231,8 @@ footer a {
     margin-left: 0px;
     margin: 16px;
   }
-}
 
-.content p img {
-  max-width:100%;
-  display: block;
-  margin: auto;
-  border-radius: 3px;
+  .post-snippet {
+    width: 100%;
+  }
 }

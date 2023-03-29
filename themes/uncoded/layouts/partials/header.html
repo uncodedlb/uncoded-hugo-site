@@ -18,6 +18,7 @@
     <meta name="msnbot" content="index, follow">
     <meta name="apple-mobile-web-app-title" content="{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
     <meta name="application-name" content="{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
+    <meta property="og:url" content="{{ .Permalink }}" />
 
     {{ if .Params.image }}
       <meta property="og:image" content="{{ .Params.image }}">

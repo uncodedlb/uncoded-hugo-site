@@ -247,6 +247,10 @@ footer a {
   line-height: 1.5em;
 }
 
+.logobox h1 {
+  font-size: 32px;
+}
+
 @media only screen and (max-width: 768px) {
   .pill-3col,
   .twocol{

@@ -4,6 +4,34 @@ slug: /contact/
 markup: html
 ---
 
+<div class="matrixbox">
+<p>
+    We do a majority of our communication and collaboration through the matrix protocol. We have a few matrix channels but our most active is the Heck Night channel.
+</p>
+
+<div class="four-col-box">
+
+<div class="leftbox">
+ <div class="code-button">
+  <code>
+    #hacknightlbc:matrix.org
+  </code><br>
+
+  <a target="_blank" class="button" href="https://matrix.to/#/#hacknightlbc:matrix.org">Matrix Page</a>
+
+</div>
+</div>
+<div class="rightbox">
+  <div class="codeimg">
+    <img alt="QR Code for Matrix Server" src="/images/matrix-code.png">
+  </div>
+</div>
+
+</div>
+
+</div>
+
+
 <div class="four-col-box">
 <div>
 <h2>Github</h2>
@@ -43,6 +71,40 @@ markup: html
 .four-col-box {
   display: grid;
   grid-template-columns: 50% 50%;
+}
+
+.matrixbox {
+  background-color: #eee;
+  border-radius: 3px;
+}
+
+.leftbox,
+.rightbox {
+  display: flex;
+  align-items: center;
+}
+
+.code-button {
+  width: 100%;
+  text-align: center;
+}
+
+.code-button code {
+  display: inline-block;
+  font-size: 24px;
+  background-color: #fff;
+  padding: 16px 32px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
+
+.codeimg {
+  width: 100%;
+  text-align: center;
+}
+
+.matrixbox {
+  padding: 16px 32px 32px 32px;
 }
 
 @media only screen and (max-width: 768px) {

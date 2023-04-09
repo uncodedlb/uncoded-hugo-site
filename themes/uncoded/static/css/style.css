@@ -292,5 +292,13 @@ footer a {
   
   .button {
     text-align: center;
+    display: block;
   }
+
+  .tophat .nav a {
+    font-weight: bold;
+    margin: 0px 8px;
+    transition: 0.5s;
+  }
+
 }

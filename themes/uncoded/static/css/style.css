@@ -251,6 +251,10 @@ footer a {
   font-size: 32px;
 }
 
+.codeimg img {
+  max-width: 100%;
+}
+
 @media only screen and (max-width: 768px) {
   .pill-3col,
   .twocol{
@@ -280,5 +284,13 @@ footer a {
 
   .post-snippet {
     width: 100%;
+  }
+  
+  .code-button code {
+    font-size: 16px !important;
+  }
+  
+  .button {
+    text-align: center;
   }
 }

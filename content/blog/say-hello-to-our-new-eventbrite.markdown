@@ -3,7 +3,6 @@ title: "Say Hello to Our New Eventbrite"
 date: 2023-04-13T21:14:01-07:00
 meta: Discover our community's transition from Meetup to Eventbrite for event organization and updates on our matrix server for real-time discussions.
 image: /images/news.webp
-draft: true
 ---
 We've got some important updates to share with you regarding our group's event organization and communication. As you may have noticed, we've decided to move away from using Meetup for our events. We've loved the platform and the community it has helped us build, but recently, the cost has become a bit too steep to justify. We believe that our resources are better spent elsewhere to bring you more awesome experiences.
 

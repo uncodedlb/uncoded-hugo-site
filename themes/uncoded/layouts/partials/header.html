@@ -21,7 +21,16 @@
     <link rel="icon" type="image/webp" href="/images/favicon.webp">
     <link rel="icon" type="image/png" href="/images/favicon.png">
 
-    <meta name="description" content="Since 2015, Uncoded has fostered community spirit among technology professionals and enthusiasts in Long Beach, CA.">
+{{ if .IsPage }}
+    {{ if .Params.meta }}
+        <meta name="description" content="{{ .Params.meta }}">
+    {{ else }}
+        <meta name="description" content="Since 2015, Uncoded has fostered community spirit among technology professionals and enthusiasts in Long Beach, CA.">
+    {{ end }}
+    {{ else }}
+        <meta name="description" content="Since 2015, Uncoded has fostered community spirit among technology professionals and enthusiasts in Long Beach, CA.">
+{{ end }}
+
     <meta name="keywords" content="Long Beach tech education, Career development Long Beach, Employment opportunities in Long Beach, Long Beach tech jobs, Long Beach tech networking, Tech training Long Beach, Long Beach tech community, Long Beach IT support, Long Beach computer skills training, Long Beach coding classes, Job placement Long Beach, Long Beach job search, Long Beach job resources, Long Beach career counseling, Long Beach job readiness, Long Beach job skills, Long Beach job training, Long Beach tech support">
     <meta name="author" content="Unocded.org">
   

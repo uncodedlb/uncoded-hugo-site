@@ -236,6 +236,11 @@ footer a {
   box-sizing: border-box;
   padding: 10px;
 }
+
+.post-snippet h3 {
+  font-size: 26px;
+}
+
 .clearfix {
   clear: both;
 }
@@ -279,7 +284,7 @@ footer a {
 
   .social-icons a {
     margin-left: 0px;
-    margin: 16px;
+    margin: 8px;
   }
 
   .post-snippet {
